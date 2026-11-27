@@ -28,11 +28,23 @@ Your branch is up to date with 'origin/main'.
 
 Klistra in `git log --oneline --graph --all` efter merge:
 
-```
-(klistra in)
+```text
+
+* b42c566 (HEAD -> main) Merge branch 'meny-nyheter'
+|\
+| * 0d2d804 (meny-nyheter) Lägg till chokladboll på menyn
+* | a29fd4e Lägg till telefonnummer
+|/
+* ce5f37f 9.1: Update git-logg.md example outputs
+* 5a5841d (origin/main, origin/HEAD) Modul 5 i TypeScript med Vite
+* 3804533 Add files via upload
+* f7a13a4 Add files via upload
+* c9a0075 Initial commit
 ```
 
 Fråga: Vad är skillnaden mellan en *fast-forward*-merge och en merge som skapar en egen merge-commit? Svara med egna ord:
+Fast forward Skapar en linjär commit-historik utan att skapa en separat merge-commit.
+En merge-commit skapar en commit som förenar historiken från båda grenarna.
 
 ## 3. Konflikten
 
