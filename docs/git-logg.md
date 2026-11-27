@@ -93,3 +93,7 @@ Länk till din pull request (på ditt eget repo):
 ## 6. Reflektion
 
 Vad är det värsta som kan hända om man kör `git push --force` på en gren som andra använder?
+
+## 7. .gitignore
+
+En `.env`-fil kan innehålla lösenord och API-nycklar. Om den committas kan hemligheterna exponeras och finnas kvar i Git-historiken även om filen senare tas bort.
