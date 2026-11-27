@@ -78,6 +78,14 @@ Jag valde en kompromiss: Helger: 10–18. Grenarna föreslog olika helgtider, s�
 
 Vad är skillnaden mellan `git restore`, `git revert` och `git reset`? Vilken är säkrast när ändringen redan är pushad?
 
+`git restore` återställer lokala ändringar som inte är committade.
+
+`git revert` skapar en ny commit som ångrar en tidigare commit.
+
+`git reset` flyttar branchen bakåt och kan skriva om historiken.
+
+När ändringen redan är pushad är `git revert` säkrast eftersom historiken bevaras.
+
 ## 5. Pull request
 
 Länk till din pull request (på ditt eget repo):
