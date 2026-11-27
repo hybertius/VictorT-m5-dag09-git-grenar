@@ -51,12 +51,29 @@ En merge-commit skapar en commit som förenar historiken från båda grenarna.
 Klistra in filen med konfliktmarkörerna, precis som den såg ut innan du löste den:
 
 ```
-(klistra in)
+# Öppettider
+
+Vardagar: 07–18
+<<<<<<< HEAD
+Helger: 10–17
+=======
+Helger: 09–18
+>>>>>>> oppettider-sommar
+Röda dagar: stängt
 ```
 
-Fråga: Vad betyder `<<<<<<< HEAD`, `=======` och `>>>>>>> grennamn`?
+Fråga: Vad betyder
+
+`<<<<<<< HEAD` Här börjar innehållet från den gren du står på just nu. HEAD betyder ungefär "min aktuella position".
+
+`=======` Separator mellan de två konkurrerande versionerna.
+
+`>>>>>>> grennamn`? Här slutar innehållet från den andra grenen.
+grennamn visar vilken gren ändringarna kommer från.
 
 Hur löste du den, och varför blev det så?
+Kompromiss - 10-18 fick det bli. Eftersom ändringen från ena branchen krockar med förändringen från den andra inkommande/existerande.
+Jag valde en kompromiss: Helger: 10–18. Grenarna föreslog olika helgtider, så jag skrev en ny tid som tar hänsyn till båda förslagen.
 
 ## 4. Ångra
 
