@@ -72,7 +72,6 @@ Fråga: Vad betyder
 grennamn visar vilken gren ändringarna kommer från.
 
 Hur löste du den, och varför blev det så?
-Kompromiss - 10-18 fick det bli. Eftersom ändringen från ena branchen krockar med förändringen från den andra inkommande/existerande.
 Jag valde en kompromiss: Helger: 10–18. Grenarna föreslog olika helgtider, så jag skrev en ny tid som tar hänsyn till båda förslagen.
 
 ## 4. Ångra
