@@ -4,4 +4,4 @@
 - Bryggkaffe, 32 kr
 - Ostmacka, 59 kr
 - Latte, 45 kr
-- Chokladboll, 34 kr
+- Chokladboll, 33 kr
